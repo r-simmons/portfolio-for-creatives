@@ -148,7 +148,7 @@ h1 {
   font-size: 5rem;
   font-family:var(--heading-typeface); 
   margin-bottom: 1rem;
-  color: #ffffff;
+  color: #000000;
 }
 
 h2 {
@@ -831,7 +831,7 @@ a.sub-navigation-link:hover {
   }
 
   h1 {
-    font-size: 4.275rem;
+    font-size: 5.275rem;
   }
 
   h2 {
