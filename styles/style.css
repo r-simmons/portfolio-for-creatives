@@ -66,8 +66,8 @@ html {
 /* Design variables refer to CSS variables that store specific design elements, such as colors and typography, which can be utilized throughout a website. Instead of individually modifying each CSS element, designers can quickly make changes by using design variables. Adjust the variables below, create new variables as desired, and delete the variables that you do not want to use. */
 
 :root {
-  --body-typeface: "Inter", sans-serif;
-  --heading-typeface: 'Bagel Fat One', cursive; 
+  --body-typeface: "Red Hat Display", sans-serif;
+  --heading-typeface: 'Pirata One', cursive; 
   --project-title-typeface: 'Eczar', serif;
   --background-color: #ba4a4a;
   --background-color-about: #8b6c6c;
@@ -104,7 +104,7 @@ html {
 
 
 body {
-  font-family: Pirata One;
+  font-family: var(--heading-typeface);
   color: var(--primary-text-color);
   background: var(--background-color);
   display: flex;
