@@ -9,10 +9,7 @@ Add the Google Fonts you want, remove the ones you don't.
 ██       ██████  ██   ████    ██    ███████ 
 
 */
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-/*
+@import url("https://fonts.googleapis.com/css2?family=Pirata+One&family=Red+Hat+Display&display=swap");/*
 
 Imported stylesheets. Remove the ones you do not want to use.
 
@@ -107,7 +104,7 @@ html {
 
 
 body {
-  font-family: var(--body-typeface);
+  font-family: Pirata One;
   color: var(--primary-text-color);
   background: var(--background-color);
   display: flex;
