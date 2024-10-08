@@ -9,7 +9,7 @@ Add the Google Fonts you want, remove the ones you don't.
 ██       ██████  ██   ████    ██    ███████ 
 
 */
-@import url(@import url'https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&family=Pirata+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&family=Pirata+One&display=swap');
 
 /*
 
@@ -335,6 +335,8 @@ a:active {
 .menu-wrapper {
   border: 2px dotted darksalmon;
   padding: 0.5rem;
+  font-size: 2rem;
+  width: 30%
 }
 .menu {
   border: 2px dotted darkslateblue;
