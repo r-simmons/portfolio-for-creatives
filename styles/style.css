@@ -320,16 +320,34 @@ a:active {
   flex-direction: column;
 }
 
+.logo {
+  width: 3rem;
+}
+
 .branding-navigation {
+  border: 2px dotted darkseagreen;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 1rem;
-  align-items: center;
+  padding: 0.5rem;
+}
+.logo,
+.menu-wrapper {
+  border: 2px dotted darksalmon;
+  padding: 0.5rem;
+}
+.menu {
+  border: 2px dotted darkslateblue;
+  padding: 0.25rem;
 }
 
-.logo {
-  width: 3rem;
+.menu-item {
+  border: 2px dotted deepskyblue;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+.custom-navigation {
+  font-size: 1rem;
 }
 
 .hero-headline-wrapper {
