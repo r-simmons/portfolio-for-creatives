@@ -445,8 +445,7 @@ a:active {
   grid-template-columns: 1fr;
   grid-gap: 3rem;
   background: var(--background-color-about);
-  padding: 1rem;
-  flex: 1;
+  padding-top: 0.5rem;
 }
 
 .about-me{
@@ -454,9 +453,16 @@ font-family:'Martian Mono', sans-serif;
 font-size: x-small;
 padding-top: 5rem;
 line-height: 0.8rem;
-border: 2px solid black;
+padding-left: 0.50rem;
+padding-right: 0.50rem;
+padding-bottom: 0.50rem
 }
 
+.about-photo{
+  min-height: max-content;
+  background-size: cover;
+  border: 2pt solid grey
+}
 /* Global Footer
 
 ███████  ██████   ██████  ████████ ███████ ██████  
