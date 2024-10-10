@@ -472,6 +472,7 @@ border: 2px solid black;
   bottom: 0;
   width: 100%;
   border: 2px dotted rgb(155, 205, 28);
+  background-color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
