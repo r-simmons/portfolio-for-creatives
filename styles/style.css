@@ -314,24 +314,25 @@ a:active {
                                  
 */
 
-.hero {
-  min-height: 80vh;
+.hero-header {
+  min-height: 30%;
   display: flex;
   flex-direction: column;
 }
 
 .logo {
-  width: 3rem;
+  width: 30%;
+  border: 2px dotted rgb(234, 0, 255);
 }
 
 .branding-navigation {
-  border: 2px dotted darkseagreen;
+  border: 2px dotted rgb(86, 0, 246);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 0.5rem;
 }
-.logo,
+
 .menu-wrapper {
   border: 2px dotted darksalmon;
   padding: 0.5rem;
