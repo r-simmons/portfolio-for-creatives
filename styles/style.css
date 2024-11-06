@@ -92,7 +92,7 @@ html {
   --overlay-color: #000000;
   --overlay-title-color: #ffffff;
   --overlay-description-color: #000000;
-  --hyperlink-color: #ff0000;
+  --hyperlink-color: #444444;
   --hyperlink-alternate-color: #ff0000;
   --hover-color: #ff0000;
   --visited-color: #000000;
@@ -206,7 +206,7 @@ em {
 }
 
 .project-title {
-  font-size: 3.725rem;
+  font-size: 2.725rem;
   font-family: var(--project-title-typeface);
   color: var(--project-title-color);
   margin-bottom: 1rem;
@@ -295,16 +295,21 @@ a:active {
 .hero-header {
   position: sticky;
   top: 0;
-  min-height: 4rem;
+  height: 5.5rem;
   display: flex;
   flex-direction: column;
   background-color: #ffffff;
+  background: red;
 }
 .logo {
   font-family: var(--logo-typeface);
   font-size: 4rem;
 }
-
+.menu,
+.socials {
+  text-align: right;
+  background: paleturquoise;
+}
 .branding-navigation {
   display: flex;
   flex-direction: row;
@@ -564,6 +569,7 @@ background: lemonchiffon;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-bottom: 5rem;
 }
 
 /* Sidebar */
@@ -578,9 +584,9 @@ background: lemonchiffon;
 .project-navigation {
   display: flex;
   flex-direction: row;
-  flex: 1;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
+  background: greenyellow;
 }
 
 .arrow {
@@ -596,11 +602,10 @@ background: lemonchiffon;
 
 .project-image {
   width: 100%;
-  min-height: 50vh;
-  /* min-height should be deleted if you want to remove space between project images on project pages */
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 0.5rem;
 }
 
 .text-section {
@@ -617,6 +622,7 @@ background: lemonchiffon;
 
 .project-details {
   width: 100%;
+  padding-right: 0.5rem;
 }
 
 /* 
@@ -957,7 +963,8 @@ a.sub-navigation-link:hover {
   /* Project Page Flex Direction on Large Devices */
   .project-wrapper {
     flex-direction: row;
-    padding: 0.7rem;
+    padding: 0.5rem;
+
   }
 
   /* Sidebar on Large Devices */
@@ -966,8 +973,9 @@ a.sub-navigation-link:hover {
     height: 65vh;
     position: -webkit-sticky;
     position: sticky;
-    top: 5vh;
-    padding-right: 2rem;
+    top: 6rem;
+    padding: 1rem;
+    background: hotpink;
   }
 
   /* Main Project Image Area on Large Devices */
@@ -975,18 +983,8 @@ a.sub-navigation-link:hover {
     width: 50%;
   }
 
-  .project-image {
-    min-height: 70vh;
-    /* This should be deleted if you want to remove space between project images on project pages */
-  }
-
   .project-image-container {
     flex-direction: row;
-  }
-
-  .project-navigation {
-    justify-content: flex-start;
-    border: 2px dotted #000000;
   }
 
   .arrow {
