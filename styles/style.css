@@ -882,17 +882,26 @@ a.sub-navigation-link:hover {
     font-size: 0.5rem;
     padding: 0rem;
   }
+  .menu-wrapper {
+    width: 30%;
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
   .menu-item {
     font-family: var(--global-header-typeface);
     align-items: center;
-    font-size: 1.1rem;
+    font-size: 2rem;
     font-weight: 300;
     padding: 0;
+    line-height: 0.1rem;
   }
   .footer-item {
     align-items: space-between;
     padding: 0.2rem;
-    font-size: 0.5rem;
+    font-size: 0.7rem;
   }
   .work-grid {
     display: grid;
@@ -965,7 +974,6 @@ a.sub-navigation-link:hover {
     height: 4.5rem;
     display: flex;
     flex-direction: column;
-    background-color: #f18b06;
   }
 
   .work-grid {
@@ -981,57 +989,48 @@ a.sub-navigation-link:hover {
     grid-column: 1 / 8;
     grid-row: 1 / 5;
     justify-items: center;
-    border: solid 2px orange;
   }
 
   .project-3 {
     grid-column: 4/ 12;
-    grid-row: 9 / 13;
+    grid-row: 9 / 12;
     justify-items: center;
-    border: solid 2px orange;
   }
   .project-5 {
     grid-column: 1 / 8;
     grid-row: 16 / 21;
     justify-items: center;
-    border: solid 2px orange;
   }
   .project-2 {
     grid-column: 16 / 25;
-    grid-row: 5 / 8;
+    grid-row: 5 / 9;
     justify-items: center;
-    border: solid 2px orange;
   }
   .project-4 {
     grid-column: 14 / 23;
-    grid-row: 14 / 20;
+    grid-row: 14 / 19;
     justify-items: center;
-    border: solid 2px orange;
   }
   .project-6 {
     grid-column: 4 / 12;
-    grid-row: 23 / 30;
+    grid-row: 23 / 31;
     justify-items: center;
-    border: solid 2px orange;
   }
   .project-7 {
     grid-column: 1 / 10;
     grid-row: 35 / 38;
     justify-items: center;
-    border: solid 2px orange;
   }
   .project-8 {
     grid-column: 16 / 23;
-    grid-row: 27 / 35;
+    grid-row: 27 / 33;
     justify-items: center;
-    border: solid 2px orange;
   }
 
   .project-9 {
     grid-column: 18/ 25;
-    grid-row: 38 / 43;
+    grid-row: 38 / 42;
     justify-items: center;
-    border: solid 2px orange;
   }
 }
 
@@ -1056,7 +1055,10 @@ a.sub-navigation-link:hover {
     height: 5.5rem;
     display: flex;
     flex-direction: column;
-    background-color: #c2f106;
+  }
+  .logo {
+    font-family: var(--logo-typeface);
+    font-size: 3.5rem;
   }
 
   h1 {
