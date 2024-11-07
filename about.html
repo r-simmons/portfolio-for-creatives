@@ -2,30 +2,31 @@
 <html lang="en">
   <head>
     <title>
-      Free Creative Portfolio Template: May 2023 Version | About Page
+      Free Creative Portfolio Template: May 2023 Version | Project Page
     </title>
     <meta
       name="description"
       content="When writing a meta description, keep it between 140 and 160 characters so Google can display your entire message. Don’t forget to include your keyword!"
     />
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
     />
-    <script
-      src="https://kit.fontawesome.com/d300c2ea15.js"
-      crossorigin="anonymous"
-    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
 
-  <body class="about-page">
+  <body class="project-1">
     <header class="hero-header">
       <ul class="branding-navigation">
         <li class="logo">
-          <a href="index.html"><h1 class="wordmark">Riley Simmons</h1></a>
+          <a href="index.html">Riley Simmons</a>
         </li>
         <li class="menu-wrapper">
           <ul class="menu">
@@ -39,41 +40,68 @@
         </li>
       </ul>
     </header>
-    <main class="about-main-section">
-      <div class="about-me">
-        Riley Simmons is an Indigenous graphic designer working in Vancouver,
-        BC.
-        <br /><br />
-        A recent graduate of the IDEA School of Design at Capilano University,
-        Riley brings diverse educational and work experience to her craft.
-        Having worked in fashion production, marketing and Indigenous event
-        organization, Riley is passionate about fostering community and
-        connection. Her approach to design reflects the deep satisfaction in
-        exploring the complex, often contradictory, nature of the human
-        experience.
-        <br /><br />
-        Riley is now open to working with new clients.
-      </div>
-      <div class="about-photo">
-        <img
-          src="assets/about/riley-simmons-vancouver-graphic-designer-image.jpg"
-          alt="Riley Simmons Photo"
-        />
-      </div>
-    </main>
+    <div class="project-wrapper">
+      <main class="project-details">
+        <div class="about-image">
+          <img
+            src="assets/about/riley-simmons-vancouver-graphic-designer-image.jpg"
+            alt="describe the image here for Google and accessibility"
+            width="1401"
+            height="1401"
+          />
+        </div>
+      </main>
+      <aside class="project-aside">
+        <div class="project-info">
+          <p class="project-description">
+            Hi! My name is Riley; I am an Indigenous graphic designer from
+            Hagwillget Village Council located in Northern BC. I am a recent
+            graduate of the IDEA School of Design at Capilano University, and I
+            also studied Fashion design at Vancouver Community College.
+          </p>
+          <p>
+            Outside of work, I dedicate time to my over-ambitious yearly reading
+            goal.
+          </p>
+        </div>
+      </aside>
+    </div>
     <ul class="global-footer">
-      <li class="contact">
-        <ul>
-          <li class="footer-item">778-870-9181</li>
-          <li class="footer-item">rileyfsimmons@gmail.com</li>
-        </ul>
-      </li>
-      <li class="contact">
-        <ul>
-          <li class="footer-item"><a href="">Linkedin</a></li>
-          <li class="footer-item"><a href="">Instagram</a></li>
-        </ul>
-      </li>
+      <ul class="phone-email">
+        <li class="footer-item">778-870-9181</li>
+        <li class="footer-item">
+          <a href="mailto:rileyfsimmons@gmail.com">rileyfsimmons@gmail.com</a>
+        </li>
+      </ul>
+      <ul class="socials">
+        <li class="footer-item">
+          <a
+            href="https://www.linkedin.com/in/riley-simmons-880966172/"
+            target="_blank"
+            >LinkedIn</a
+          >
+        </li>
+        <li class="footer-item">
+          <a href="https://www.instagram.com/lowdowninsoho" target="_blank"
+            >Instagram</a
+          >
+        </li>
+      </ul>
     </ul>
+
+    <script ="text/javascript">
+      myID = document.getElementById("myID");
+
+      var myScrollFunc = function () {
+        var y = window.scrollY;
+        if (y >= 800) {
+          myID.className = "bottomMenu show";
+        } else {
+          myID.className = "bottomMenu hide";
+        }
+      };
+
+      window.addEventListener("scroll", myScrollFunc);
+    </script>
   </body>
 </html>

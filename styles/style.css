@@ -530,13 +530,18 @@ background: lemonchiffon;
   padding-bottom: 0.5rem;
   width: 100%;
 }
-
-.about-photo {
-  min-height: max-content;
-  background-size: cover;
+.about-image {
   width: 100%;
-  padding-left: 0.5rem;
-  padding-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+
+.about-details {
+  width: 50%;
+  padding-right: 0.5rem;
+  border: 2pt solid rgb(202, 17, 17);
 }
 
 /* Global Footer
@@ -619,6 +624,7 @@ background: lemonchiffon;
   align-items: center;
   justify-content: center;
   margin-bottom: 0.5rem;
+  border: solid 2px black;
 }
 
 .text-section {
