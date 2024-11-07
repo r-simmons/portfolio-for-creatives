@@ -429,7 +429,6 @@ a:active {
   grid-column: 52 / 58;
   grid-row: 2 / 14;
   justify-items: center;
-  border: solid 1px black;
   /* max-width: 40%; */
 }
 .project-4 {
@@ -624,7 +623,6 @@ background: lemonchiffon;
   align-items: center;
   justify-content: center;
   margin-bottom: 0.5rem;
-  border: solid 2px black;
 }
 
 .text-section {
