@@ -120,7 +120,8 @@ body {
 /* The ::selection CSS pseudo-element applies styles to the part of a document that has been highlighted by the user (such as clicking and dragging the mouse across text). */
 
 ::selection {
-  background: var(--accent-color);
+  background: #ff0000;
+  opacity: 50%;
 }
 
 /* Make all images responsive */
@@ -645,48 +646,6 @@ background: lemonchiffon;
   padding-right: 0.5rem;
 }
 
-/* 
-
-██   ██  ██████  ██      ██████  ██ ███    ██  ██████  
-██   ██ ██    ██ ██      ██   ██ ██ ████   ██ ██       
-███████ ██    ██ ██      ██   ██ ██ ██ ██  ██ ██   ███ 
-██   ██ ██    ██ ██      ██   ██ ██ ██  ██ ██ ██    ██ 
-██   ██  ██████  ███████ ██████  ██ ██   ████  ██████  
-                                                       
-*/
-
-.holding-page-wrapper {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr auto;
-  place-items: center;
-  text-align: center;
-  width: 100%;
-  min-height: 100vh;
-}
-
-.holding-page-animation {
-  margin-bottom: 1rem;
-}
-
-.holding-page-title {
-  font-size: 1.5rem;
-  color: var(--holding-page-title-color);
-}
-
-.holding-page-footer {
-  display: grid;
-  place-items: center;
-  min-height: 10vh;
-  width: 100%;
-}
-
-.holding-page-copyright {
-  font-size: 0.8rem;
-  color: var(--holding-page-footer-color);
-  margin-bottom: 0rem;
-}
-
 /*
 ███████╗████████╗██╗   ██╗██╗     ███████╗     ██████╗ ██╗   ██╗██╗██████╗ ███████╗
 ██╔════╝╚══██╔══╝╚██╗ ██╔╝██║     ██╔════╝    ██╔════╝ ██║   ██║██║██╔══██╗██╔════╝
@@ -722,6 +681,8 @@ background: lemonchiffon;
 
 .error-page-title {
   color: var(--accent-color);
+  padding-left: 15rem;
+  padding-right: 15rem;
 }
 
 /*
@@ -875,7 +836,6 @@ a.sub-navigation-link:hover {
     height: 4.3rem;
     display: flex;
     flex-direction: column;
-    background-color: #ff0000;
   }
   .menu,
   .socials {
@@ -1012,7 +972,6 @@ a.sub-navigation-link:hover {
     height: 4.5rem;
     display: flex;
     flex-direction: column;
-    background-color: #ff8800;
   }
 
   .work-grid {
@@ -1130,7 +1089,6 @@ a.sub-navigation-link:hover {
     height: 5.5rem;
     display: flex;
     flex-direction: column;
-    background-color: #fff200;
   }
   .logo {
     font-family: var(--logo-typeface);
@@ -1308,7 +1266,6 @@ a.sub-navigation-link:hover {
     height: 5.5rem;
     display: flex;
     flex-direction: column;
-    background-color: green;
   }
   .logo {
     font-family: var(--logo-typeface);
