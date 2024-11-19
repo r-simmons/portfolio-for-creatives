@@ -254,11 +254,11 @@ a:hover {
 }
 
 a:focus {
-  outline: 1px solid var(--accent-color);
 }
 
 a:active {
   color: var(--hover-color);
+  border: none;
   /* Tap on mobile */
 }
 
@@ -267,16 +267,12 @@ a:active {
 }
 
 .navigation-arrow:link {
-  -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: var(--accent-color);
   color: transparent;
 }
 
 .navigation-arrow:active,
 .navigation-arrow:hover {
-  color: var(--accent-color);
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: var(--accent-color);
 }
 
 .colored-link {
@@ -598,6 +594,7 @@ background: lemonchiffon;
   flex-direction: column;
   color: var(--project-sidebar-text-color);
   background: var(--project-sidebar-background-color);
+  max-width: 40%;
 }
 
 .project-navigation {
@@ -1284,20 +1281,21 @@ a.sub-navigation-link:hover {
     font-size: 1.625rem;
   }
 
-  project-title {
-    font-size: 1.125rem;
-    font-family: var(--project-title-typeface);
-    margin-bottom: 1rem;
-    font-weight: 300;
-  }
   p {
     font-family: var(--body-typeface);
-    font-size: 1.125rem;
+    font-size: 1rem;
     line-height: 1.3;
     margin-bottom: 1rem;
-    font-weight: 300;
+    font-weight: 200;
   }
-
+  .bold-paragraph {
+    font-family: var(--body-typeface);
+    font-size: 1rem;
+    line-height: 1.3;
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+  }
   .about-main-section {
     flex-direction: row;
   }
@@ -1376,14 +1374,15 @@ a.sub-navigation-link:hover {
     justify-items: center;
   }
   .project-title {
-    font-size: 1.125rem;
+    font-size: 1rem;
     font-family: var(--project-title-typeface);
-    color: var(--project-title-color);
+    color: rgb(0, 0, 0);
     margin-bottom: 1rem;
-    font-weight: 300;
-    padding-top: 5rem;
+    font-weight: 500;
+    padding-top: 3rem;
     padding-left: 0.7rem;
     padding-right: 0.7rem;
+    padding-bottom: 1rem;
   }
   /* XL devices (tablets, 1400px and up) */
 
@@ -1404,13 +1403,12 @@ a.sub-navigation-link:hover {
     height: 65vh;
     position: -webkit-sticky;
     position: sticky;
-    top: 6rem;
-    padding: 1rem;
+    padding: 0rem;
   }
 
   /* Main Project Image Area on Large Devices */
   .project-details {
-    width: 50%;
+    width: 60%;
   }
 
   .project-image-container {
