@@ -386,10 +386,6 @@ a:active {
 
 */
 
-.work-wrapper {
-  flex: 1;
-}
-
 /* Padding around work grid and project page */
 .project-wrapper {
   padding: 0;
@@ -527,9 +523,10 @@ background: lemonchiffon;
   width: 100%;
 }
 .about-image {
+  position: sticky;
+  top: 2px;
   width: 100%;
   display: flex;
-  align-items: center;
   justify-content: center;
   margin-bottom: 0.5rem;
 }
