@@ -127,12 +127,10 @@ body {
 /* Make all images responsive */
 img,
 svg {
-  max-width: 100%;
-  height: auto;
-  vertical-align: top;
-  /* Removes the gap/space in inline elements for text descenders. */
-  object-fit: contain;
-  /* This is optional. Also try cover or leave out entirely. */
+  border: solid black;
+  width: 30%;
+  height: 30%;
+  vertical-align: right;
 }
 
 /* Global & Mobile Typography 
